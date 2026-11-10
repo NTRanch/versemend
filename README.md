@@ -26,6 +26,6 @@ You take commissions at the guildhall, one domain of the language at a time. Fie
 
 ## Credits
 
-A Qompass AI project.
+A Nice Thoughts Ranch project.
 
 Made with Rust and vendored Lua 5.5 (via mlua), with a two-process LuaJIT strand.
