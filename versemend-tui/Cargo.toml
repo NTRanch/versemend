@@ -1,0 +1,17 @@
+[package]
+name = "versemend-tui"
+version = "0.1.0"
+edition = "2021"
+description = "Versemend host console TUI (fleet TUI programme D-1562, rung 1): operator console for the host's --selftest / --strand-proof modes and the Lua game tree."
+license = "Apache-2.0"
+
+[dependencies]
+# serde_json: facade status/results cross the UI as JSON values (fleet pattern).
+serde_json = "1"
+# ratatui: pure panel rendering; tests use TestBackend, never a real terminal.
+ratatui = "0.29"
+# crossterm: terminal backend + key events for the full-screen loop only.
+crossterm = "0.28"
+
+[profile.release]
+lto = "thin"
