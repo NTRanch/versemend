@@ -167,7 +167,7 @@ pub fn lua_lines(state: &ConsoleState) -> Vec<String> {
 pub fn fleet_lines(state: &ConsoleState) -> Vec<String> {
     let mut out = vec![
         "Fleet / triggers".to_string(),
-        "lane: ntranch/restricted (BLOCH) — this console's work stays in the versemend repo".to_string(),
+        "content lane: restricted (BLOCH) — this console's work stays in the versemend repo".to_string(),
         "trigger rules: 0 (none declared tonight; nothing fires that is not listed)".to_string(),
         "audit tail:".to_string(),
     ];
