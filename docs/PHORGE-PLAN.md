@@ -22,7 +22,7 @@ instrument exists, by the motion-study instrument (fathom plan
 
 A fantasy RPG that teaches Lua by having the player repair and
 write real programs, run in an embedded interpreter and gated by
-the programs' own test suites. general. Rust host, vendored Lua,
+the programs' own test suites. General-audience. Rust host, vendored Lua,
 Android packaging in-tree.
 
 ## Where it stands
@@ -41,7 +41,7 @@ template gains from it: the embedded-scripting host as a kit part.
 
 ## Extraction lessons it consumes
 
-None from the originals. general technique only: kinetic-text timing
+None from the originals. General-audience technique only: kinetic-text timing
 tokens could be measured from reference UI, but the bar library
 does not cover UI motion — a gap to name.
 
